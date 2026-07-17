@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "grassreplacer",
+  "version": "1.0.0",
+  "name": "Grass Replacer",
+  "description": "Texturas realistas para grama! Pressione G.",
+  "authors": ["elza996135157-cmyk"],
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.grassreplacer.GrassReplacerMod"]
+  },
+  "mixins": ["grass-replacer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.grassreplacer",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["GrassBlockMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
